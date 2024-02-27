@@ -20,7 +20,7 @@ $blueTwo-color: #122539;
   &__call {
     width: 50%;
     background-color: $blueTwo-color;
-    padding: 224px 159px 195px 274px;
+    padding: 116px 159px 120px 274px;
 
     &__title {
       font-weight: 500;
@@ -43,7 +43,7 @@ $blueTwo-color: #122539;
       font-weight: 500;
       font-size: 24px;
       width: 440px;
-      padding: 45px 23px;
+      padding: 25px 23px;
       background-color: $blue-color;
       color: $white-color;
 
@@ -79,7 +79,8 @@ $blueTwo-color: #122539;
 
   &__video {
     width: 50%;
-    height: 962px;
+    height: 768px;
+    object-fit: cover;
   }
 }
 
@@ -201,6 +202,10 @@ $blueTwo-color: #122539;
         font-size: 18px;
         width: 200px;
         padding: 10px 8px;
+
+        &::placeholder {
+          font-size: 14px;
+        }
       }
 
       &__wrapper {
@@ -242,7 +247,8 @@ $blueTwo-color: #122539;
       position: absolute;
       top: 22px;
       z-index: 2;
-      left: 25vw;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     &__nav__button_right {
@@ -302,6 +308,10 @@ $blueTwo-color: #122539;
         width: 214px;
         padding: 15px 11px;
         height: 40px;
+
+        &::placeholder {
+          font-size: 12px;
+        }
       }
 
       &__wrapper {

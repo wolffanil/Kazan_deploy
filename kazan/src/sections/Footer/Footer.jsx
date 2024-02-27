@@ -27,35 +27,35 @@ function Footer() {
             <div className={styled.footer__links}>
               <ul className={styled.footer__nav}>
                 <li>
-                  <a href="" className={styled.footer__items}>
+                  <a href="#main" className={styled.footer__items}>
                     Главная
                   </a>
                 </li>
                 <li>
-                  <a href="" className={styled.footer__items}>
-                    Вдохновение
+                  <a href="#slider" className={styled.footer__items}>
+                    Места
                   </a>
                 </li>
                 <li>
-                  <a href="" className={styled.footer__items}>
-                    Видео
+                  <a href="#blocks" className={styled.footer__items}>
+                    Культура
                   </a>
                 </li>
                 <li>
-                  <a href="" className={styled.footer__items}>
-                    Панорама
+                  <a href="#natour" className={styled.footer__items}>
+                    Природа
                   </a>
                 </li>
               </ul>
 
               <ul className={styled.footer__nav}>
                 <li>
-                  <a href="" className={styled.footer__items}>
+                  <a href="https://www.aviasales.ru/?params=ASFKZN1" className={styled.footer__items}>
                     Авиоселс
                   </a>
                 </li>
                 <li>
-                  <a href="" className={styled.footer__items}>
+                  <a href="https://vk.com/kzn?from=search" className={styled.footer__items}>
                     Вк
                   </a>
                 </li>
@@ -65,7 +65,7 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="" className={styled.footer__items}>
+                  <a href="https://www.youtube.com/watch?v=MWrML2q6uGs" className={styled.footer__items}>
                     YouTube
                   </a>
                 </li>

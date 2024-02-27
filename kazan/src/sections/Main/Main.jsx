@@ -6,7 +6,7 @@ function Main() {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={styled.main}>
+    <div className={styled.main} id='main'>
         <div className='container'>
         <header>
             <nav className={styled.nav}>

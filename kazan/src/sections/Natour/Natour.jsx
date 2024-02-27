@@ -43,11 +43,14 @@ function Natour() {
         />
 
         <div className={styled.natour__block_top}></div>
+
         <motion.div className={styled.natour__block_buttom}
         initial={{ y: '100%', opacity: 0}}
         animate={isInView ? {y:0, opacity: 1} : {}}
         transition={{ type: 'tween', duration: 2.5}}
-        ></motion.div>
+        >
+
+        </motion.div>
 
         <motion.div className={styled.natour__desc}
           initial={{ y: '150%', opacity: 0}}
@@ -73,9 +76,9 @@ function Natour() {
         </motion.div>
 
         <motion.h2 className={styled.natour__title}
-          initial={{ x: '150%', opacity: 0}}
-          animate={isInView ? {x:0, opacity: 1, display: 'none'} : {}}
-          transition={{ type: 'tween', duration: 0.9, display: 'block'}}
+          initial={{ x: '150%', opacity: 0, display: 'none'}}
+          animate={isInView ? {x:0, opacity: 1,  display: 'block'} : {}}
+          transition={{ type: 'tween', duration: 0.9}}
         >
           Природные краски <br />
           Казанской флоры

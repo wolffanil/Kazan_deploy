@@ -1,4 +1,4 @@
-import {useState } from "react";
+import {useRef, useState } from "react";
 import {motion, AnimatePresence} from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 import ScrollToTop from "react-scroll-to-top";
@@ -16,7 +16,8 @@ function Coursel() {
   const [ref, isInView] = useInView({
     threshold: 0.1,
     triggerOnce: true
-  })
+  });
+  const sliderRef = useRef();
   
 
   const settings = {
@@ -27,6 +28,16 @@ function Coursel() {
     beforeChange: (current, next) => {
       setActiveSlide(next + 1);
     },
+    responsive: [
+      {
+        breakpoint: 993,
+        settings: {
+          autoplay: true,
+          autoplaySpeed: 5000
+        }
+      }
+    ]
+  
   };
 
   return (
@@ -44,7 +55,8 @@ function Coursel() {
      }}
      >
       <div className={styled.slider__wrapper}>
-        <Slider {...settings}>
+        <img src="/icons/left.svg" alt="left" className={styled.slider__wrapper__left} onClick={() => sliderRef.current.slickPrev()} />
+        <Slider {...settings} ref={sliderRef}>
           {sliderItems.map((item, key) => (
             <Item
             key={key}
@@ -54,6 +66,9 @@ function Coursel() {
             />
             ))}
         </Slider>
+             <img src="/icons/left.svg" alt="left" className={styled.slider__wrapper__right}
+              onClick={() =>sliderRef.current.slickNext()}
+             />
       </div>
 
       <div className={styled.slider__count}
