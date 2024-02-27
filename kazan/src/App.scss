@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+$white-color: #f9f1ef;
+$blue-color: #58738f;
+$green-color: #edac72;
+$blueTwo-color: #122539;
+
+.container {
+  width: 1372px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "alegreya";
+  src: url("/fonts/AlegreyaSansSC-Bold.ttf") format("truetype");
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "alegreya";
+  src: url("/fonts/AlegreyaSansSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "alegreya";
+  src: url("/fonts/AlegreyaSansSC-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "alegreya", serif;
+  position: relative;
+  background-color: $white-color;
+  overflow-x: hidden;
+
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: $white-color;
+  text-decoration: none;
+}
+
+@media (max-width: 1367px) {
+  .container {
+    max-width: 1135px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 630px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 288px;
+  }
+  
+}
