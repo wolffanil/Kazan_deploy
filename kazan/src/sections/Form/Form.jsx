@@ -55,7 +55,6 @@ function Form() {
         <video
           src="/kazan.mp4"
           controls
-          height='540'
           muted
           className={`${styled.form__video} ${
             isVideo && styled.form__fullscreen

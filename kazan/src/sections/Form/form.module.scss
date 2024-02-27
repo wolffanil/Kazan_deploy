@@ -20,7 +20,9 @@ $blueTwo-color: #122539;
   &__call {
     width: 50%;
     background-color: $blueTwo-color;
-    padding: 116px 159px 120px 274px;
+    padding: 96px 159px 120px 274px;
+    height: 768px;
+
 
     &__title {
       font-weight: 500;
@@ -34,7 +36,7 @@ $blueTwo-color: #122539;
       letter-spacing: 2px;
       color: $white-color;
       margin-top: 40px;
-      font-size: 22px;
+      font-size: 19px;
       margin-bottom: 28px;
     }
 
@@ -42,7 +44,7 @@ $blueTwo-color: #122539;
       margin-top: 17px;
       font-weight: 500;
       font-size: 24px;
-      width: 440px;
+      width: 410px;
       padding: 25px 23px;
       background-color: $blue-color;
       color: $white-color;
@@ -61,13 +63,13 @@ $blueTwo-color: #122539;
 
     &__checktext {
       font-weight: 500;
-      font-size: 18px;
+      font-size: 13px;
       letter-spacing: 3px;
       color: $white-color;
     }
 
     &__button {
-      padding: 25px 70px;
+      padding: 14px 43px;
       background-color: $green-color;
       margin-top: 40px;
       font-weight: 500;
@@ -79,7 +81,7 @@ $blueTwo-color: #122539;
 
   &__video {
     width: 50%;
-    height: 777px;
+    height: 768px;
     object-fit: cover;
   }
 }
@@ -89,7 +91,9 @@ $blueTwo-color: #122539;
     margin-top: 330px;
 
     &__call {
-      padding: 129px 121px 102px 106px;
+      padding: 80px 121px 102px 106px;
+      height: 682px;
+
 
       &__title {
         font-size: 48px;
@@ -104,6 +108,7 @@ $blueTwo-color: #122539;
       &__input {
         margin-top: 17px;
         padding: 31px 18px;
+        width: 360px;
       }
 
       &__wrapper {
@@ -112,7 +117,7 @@ $blueTwo-color: #122539;
       }
 
       &__checktext {
-        font-size: 14px;
+        font-size: 10px;
       }
 
       &__button {
@@ -134,7 +139,9 @@ $blueTwo-color: #122539;
 
     &__call {
       width: 50%;
-      padding: 120px 119px 100px 121px;
+      padding: 60px 119px 100px 121px;
+      height: 550px;
+
 
       &__title {
         font-size: 28px;
@@ -150,7 +157,7 @@ $blueTwo-color: #122539;
       &__input {
         margin-top: 12px;
         font-size: 18px;
-        width: 300px;
+        width: 280px;
         padding: 20px 17px;
       }
 
@@ -165,7 +172,7 @@ $blueTwo-color: #122539;
       }
 
       &__button {
-        padding: 18px 52px;
+        padding: 9px 28px;
         margin-top: 30px;
         font-size: 27px;
         letter-spacing: 2px;
@@ -174,7 +181,7 @@ $blueTwo-color: #122539;
 
     &__video {
       width: 50%;
-      height: 721px;
+      height: 550px;
     }
   }
 }
@@ -186,6 +193,8 @@ $blueTwo-color: #122539;
     &__call {
       width: 50%;
       padding: 60px 55px 20px 69px;
+      height: 357px;
+
 
       &__title {
         font-size: 20px;
