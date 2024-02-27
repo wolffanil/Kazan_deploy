@@ -37,8 +37,8 @@ function Natour() {
           src="/img/natours/right.jpg"
           alt="natour"
           className={styled.natour__img_right}
-          initial={{ x: '150%', opacity: 0}}
-          animate={isInView ? {x:0, opacity: 1} : {}}
+          initial={{ x: '150%', opacity: 0, display: 'none'}}
+          animate={isInView ? {x:0, opacity: 1, display: 'block'} : {}}
           transition={{ type: 'tween', duration: 1.7}}
         />
 
@@ -74,8 +74,8 @@ function Natour() {
 
         <motion.h2 className={styled.natour__title}
           initial={{ x: '150%', opacity: 0}}
-          animate={isInView ? {x:0, opacity: 1} : {}}
-          transition={{ type: 'tween', duration: 0.9}}
+          animate={isInView ? {x:0, opacity: 1, display: 'none'} : {}}
+          transition={{ type: 'tween', duration: 0.9, display: 'block'}}
         >
           Природные краски <br />
           Казанской флоры

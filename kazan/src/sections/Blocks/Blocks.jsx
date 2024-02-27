@@ -50,8 +50,8 @@ function Blocks() {
 
 
             <motion.div className={styled.blocks__item}
-                   initial={{x: '150%',opacity: 0}}
-                   animate={isInView ?{ x: 0, opacity: 1}: {}}
+                   initial={{x: '150%',opacity: 0, display: 'none'}}
+                   animate={isInView ?{ x: 0, opacity: 1, display: 'flex'}: {}}
                    transition={{ type: 'tween', duration: 0.5}}
             >
                 <div className={styled.blocks__item__cyrcl}>

@@ -30,9 +30,9 @@ function Main() {
                 </div>
 
                 <motion.ul className={styled.nav__wrapper_m}
-                    initial={!isOpen ? {x: '150%', opacity: 0, y: '20px'} : {}}
+                    initial={!isOpen ? {x: '150%', opacity: 0, y: '20px', display: 'none'} : {}}
                     transition={{ duration: 0.9, type: 'tween'}}
-                    animate={isOpen ?{x: 0, y: '20px', opacity: 1}: {}}
+                    animate={isOpen ?{x: 0, y: '20px', opacity: 1, display: 'flex'}: {}}
                     onClick={() => setIsOpen(false)}
                 >
                     <li className={styled.nav__wrapper__item}
