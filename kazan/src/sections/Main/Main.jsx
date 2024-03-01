@@ -46,7 +46,14 @@ function Main() {
             </nav>
         </header>
 
-        <h1 className={styled.main__title}>Погрузитесь в атмосферу <br /> Казани</h1>
+        <motion.h1
+            initial={{
+                y: '40%',
+                opacity: 0
+            }}
+            animate={{y: 0, opacity: 1}}
+            transition={{ type: 'tween', duration: 1.3}}
+        className={styled.main__title}>Погрузитесь в атмосферу <br /> Казани</motion.h1>
         </div>
 
     </div>

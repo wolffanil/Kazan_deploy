@@ -94,7 +94,7 @@ function Coursel() {
 
     <ScrollToTop smooth color="#EDAC72" top={70} style={{
         borderRadius: '20px',
-        right: '10px'
+        right: '20px'
       }} />
    </>
   );

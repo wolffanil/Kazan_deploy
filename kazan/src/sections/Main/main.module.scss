@@ -167,6 +167,7 @@ $green-color: #EDAC72;
       justify-content: space-between;
       background-color: $green-color;
       list-style-type: none;
+      z-index: 2;
     }
 
     &__wrapper__item {
@@ -175,6 +176,7 @@ $green-color: #EDAC72;
 
     &__menu {
       display: block;
+     
     }
   
     &__wrapper {

@@ -227,6 +227,15 @@ $blueTwo-color: #122539;
 
     &__items {
       font-size: 14px;
+
+      &:hover {
+        color: unset;
+      }
+
+      &:active {
+        color: rgb(3, 133, 255);
+        transition: 0.5s all;
+      }
     }
   }
 }

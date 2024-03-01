@@ -23,7 +23,7 @@ function Natour() {
           className={styled.natour__img_top}
           initial={{ opacity: 0}}
           animate={isInView ? {opacity: 1} : {}}
-          transition={{ type: 'tween', duration: 0.7}}
+          transition={{ type: 'tween', duration: 0.8}}
         />
         <motion.img
           src="/img/natours/left.jpg"
@@ -31,7 +31,7 @@ function Natour() {
           className={styled.natour__img_left}
           initial={{ x: '-150%', opacity: 0}}
           animate={isInView ? {x:0, opacity: 1} : {}}
-          transition={{ type: 'tween', duration: 1.3}}
+          transition={{ type: 'tween', duration: 1.5}}
         />
         <motion.img
           src="/img/natours/right.jpg"
@@ -39,7 +39,7 @@ function Natour() {
           className={styled.natour__img_right}
           initial={{ x: '150%', opacity: 0, display: 'none'}}
           animate={isInView ? {x:0, opacity: 1, display: 'block'} : {}}
-          transition={{ type: 'tween', duration: 1.7}}
+          transition={{ type: 'tween', duration: 1.9}}
         />
 
         <div className={styled.natour__block_top}></div>
@@ -47,7 +47,7 @@ function Natour() {
         <motion.div className={styled.natour__block_buttom}
         initial={{ y: '100%', opacity: 0}}
         animate={isInView ? {y:0, opacity: 1} : {}}
-        transition={{ type: 'tween', duration: 2.5}}
+        transition={{ type: 'tween', duration: 2.7}}
         >
 
         </motion.div>
@@ -55,7 +55,7 @@ function Natour() {
         <motion.div className={styled.natour__desc}
           initial={{ y: '150%', opacity: 0}}
           animate={isInView ? {y:0, opacity: 1} : {}}
-          transition={{ type: 'tween', duration: 2.1}}
+          transition={{ type: 'tween', duration: 2.3}}
         >
           Казань,{" "}
           <span className={styled.natour__two}>
@@ -78,7 +78,7 @@ function Natour() {
         <motion.h2 className={styled.natour__title}
           initial={{ x: '150%', opacity: 0, display: 'none'}}
           animate={isInView ? {x:0, opacity: 1,  display: 'block'} : {}}
-          transition={{ type: 'tween', duration: 0.9}}
+          transition={{ type: 'tween', duration: 1.1}}
         >
           Природные краски <br />
           Казанской флоры
@@ -87,7 +87,7 @@ function Natour() {
         <motion.p className={styled.natour__subtitle}
           initial={{ y: '150%', opacity: 0}}
           animate={isInView ? {y:0, opacity: 1} : {}}
-          transition={{ type: 'tween', duration: 2.5}}
+          transition={{ type: 'tween', duration: 2.7}}
         >
           Природные <br />
           чудеса Казани: <br />
